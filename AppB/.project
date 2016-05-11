@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>AppB</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>com.audiumcorp.studio.builder.core.AudiumProjectNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>SubFlowA.subflow</name>
+			<type>1</type>
+			<location>C:/Cisco/CallStudio1101/eclipse/workspaces/ShoreGroup/AppA/SubFlowA.subflow</location>
+		</link>
+		<link>
+			<name>subflow/SubFlowA</name>
+			<type>2</type>
+			<location>C:/Cisco/CallStudio1101/eclipse/workspaces/ShoreGroup/AppA/subflow/SubFlowA</location>
+		</link>
+	</linkedResources>
+</projectDescription>

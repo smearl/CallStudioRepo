@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<page id="Page@7579900:1461250338559" name="page1" version="6.0.1">
+<element height="46" id="Element@28304204:1461250338559" name="Start Of Call" start_of_call="true" type="Page Entry" width="113" x="230" y="30">
+<exit_states>
+<exit_state name="next" target="Element@32616718:1461250852842"/>
+</exit_states>
+</element>
+<element height="46" id="Element@7785059:1461250833390" name="Call_01" type="Subflow Call" width="87" x="243" y="261">
+<subflow_call subflow_name="SubFlowA" target="Element@31:1461250891311">
+<config/>
+</subflow_call>
+<exit_states>
+<exit_state name="next" target="Element@17332734:1461250867475"/>
+</exit_states>
+</element>
+<element height="46" id="Element@32616718:1461250852842" name="CVP Subdialog Start_01" src="com.audium.server.voiceElement.internal.CiscoSubdialogStartElement" type="Subdialog Start" width="172" x="200" y="142">
+<exit_states>
+<exit_state name="done" target="Element@7785059:1461250833390"/>
+</exit_states>
+</element>
+<element height="46" id="Element@17332734:1461250867475" name="CVP Subdialog Return_01" src="com.audium.server.voiceElement.internal.CiscoSubdialogReturnElement" type="Subdialog Return" width="183" x="195" y="384">
+<exit_states>
+<exit_state name="done"/>
+</exit_states>
+</element>
+</page>
