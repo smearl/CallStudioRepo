@@ -2,7 +2,7 @@
 <page id="Page@8889821:1461250312711" name="page1" version="6.0.1">
 <element height="46" id="Element@9886073:1461250312711" name="Start Of Call" start_of_call="true" type="Page Entry" width="113" x="230" y="30">
 <exit_states>
-<exit_state name="next"/>
+<exit_state name="next" target="Element@32747895:1461250355859"/>
 </exit_states>
 </element>
 <element height="46" id="Element@32747895:1461250355859" name="Call_01" type="Subflow Call" width="87" x="240" y="159">
